@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Righteous&display=swap');
+main{
+    font-family: 'Righteous', cursive;
+    display: flex;
+    background-color: aqua;
+}
+.container{
+    font-family: 'Righteous', cursive;
+    color: rgb(31, 35, 35);
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    
+}
+a{
+    text-decoration:none;
+}
+.cabecalho{
+    width: 75%;
+    height: 350px;
+    background-image: url("/assets/img/backgr.png");
+    display: flex; 
+}
+.foto{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.descri{
+    margin-top: 100px;
+    margin-left: 20px;
+    color: black;
+
+}
+.menu {
+   
+    background: gray;
+    width: 75%;
+    margin-top: 1px; 
+    justify-content: center;
+    display:flex;
+    text-align: center;
+    text-decoration:none
+}
+.botoes{
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    justify-content: space-around;
+    color: black;
+}
+li{
+    margin: 1%;
+}
+#boton2{
+    width: 100px; 
+    height: 30px;
+    border-radius: 10px;
+}
+#boton3{
+    width: 100px; 
+    height: 30px;
+    border-radius: 10px;
+}
+#boton4{
+    width: 100px; 
+    height: 30px;
+    border-radius: 10px;
+    align-items: center;
+}
+ul li:hover{
+    background: white;
+    color: black;
+}
+.formulario{
+
+    display: flex;
+    background-color: rgb(188, 186, 186);
+    height: px;
+    width: 37%;
+    padding-bottom:30px ;
+}
+.dados{
+    margin-top: 150px;
+    justify-items: center;
+    height: 300px;
+    width: 350px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 50px;
+    padding-top: 20px;
+    line-height: 40px;
+    /* A propriedade line-height em CSS é usada para definir a quantidade 
+    de espaço usado para linhas, como no texto. */
+    margin-right: 100px;
+}
+.icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 38%;
+    height: 500px;
+    background-color: rgb(188, 186, 186) ;
+}
+
+.descricao{ 
+    height: 90px;
+    width: 74.01%;
+    background-color: rgb(188, 186, 186);
+    padding-top: 30px;
+    padding-left: 10px;
+
+}
+.formulario, .icones{
+    float: left;
+}
+
+
+
+
+
+

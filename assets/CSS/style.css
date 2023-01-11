@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Righteous&display=swap');
+main{
+    font-family: 'Righteous', cursive;
+    display: flex;
+    background-color: aqua;
+}
+.container{
+    font-family: 'Righteous', cursive;
+    color: rgb(31, 35, 35);
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    
+}
+a{
+    text-decoration:none;
+}
+.cabecalho{
+    width: 75%;
+    height: 350px;
+    background-image: url("/assets/img/Simple\ Shiny.svg");
+    display: flex; 
+}
+.foto{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.descri{
+    margin-top: 30px;
+    margin-left: 20px;
+    color: black;
+
+}
+.menu {
+   
+    background: gray;
+    width: 75%;
+    margin-top: 1px; 
+    justify-content: center;
+    display:flex;
+    text-align: center;
+    text-decoration:none
+}
+.botoes{
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    justify-content: space-around;
+    color: black;
+}
+li{
+    margin: 1%;
+}
+#boton2{
+    width: 100px; 
+    height: 30px;
+    border-radius: 10px;
+}
+#boton3{
+    width: 100px; 
+    height: 30px;
+    border-radius: 10px;
+}
+#boton4{
+    width: 100px; 
+    height: 30px;
+    border-radius: 10px;
+    align-items: center;
+}
+ul li:hover{
+    background: white;
+    color: black;
+}
+.sobre{
+    display: flex;
+    background-color: rgb(188, 186, 186);
+    width: 812px;
+    margin-left: 250px;
+    height: 500px;
+    
+
+
+} 
+.foto2{
+    border: 3px solid black; 
+    width: 240px;
+    height: 240px;
+    padding-top: 50px;
+    padding-left: 40px;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.foto2, .bio{
+    float: left;
+}
+.bio{
+
+  
+    width: 400px;
+    padding-bottom: 40px;
+    margin-top: 0px;
+    margin-left: 30px;
+
+
+}
+ul{
+    list-style-type: none;
+}
+h3{
+    padding-left: 40px;
+}
+.rodape{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    
+}
+footer{
+    background-color: gray;
+    width: 61%;
+    margin-left: 250px;
+}
+#img1{
+    
+    position: absolute;
+    /* Com ele você pode posicionar
+    qualquer elemento de acordo com o elemento pai que tenha um position diferente de static. */
+    display: flex;
+    padding-top: 238px;
+    /* A propriedade padding define uma a distância entre o conteúdo de um elemento e suas bordas. */
+    padding-left: 240px;
+    margin-left:px;
+    /* O CSS margin é uma propriedade utilizada para adicionar um distanciamento na parte externa, ao redor do elemento.  */
+}
+
+
+    
+
+  
+
+    
+
+
+
+
